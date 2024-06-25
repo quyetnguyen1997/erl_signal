@@ -38,7 +38,7 @@ CXXFLAGS += -fPIC -I $(ERTS_INCLUDE_DIR) -I $(ERL_INTERFACE_INCLUDE_DIR) -I /usr
 
 LDLIBS += -L ../libs/cJSON 
 LDLIBS += -L ../libs/libsignal-protocol-c/build/src -lsignal-protocol-c
-LDLIBS += -L $(ERL_INTERFACE_LIB_DIR) -lerl_interface -lei
+LDLIBS += -L $(ERL_INTERFACE_LIB_DIR) -lei
 LDLIBS += -L /usr/lib32 -lgcrypt
 # LDLIBS += -L /usr/lib32 -lglib
 
